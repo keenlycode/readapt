@@ -1,6 +1,6 @@
 {
   "name": "@devcapsule/readapt",
-  "version": "0.0.1",
+  "version": "0.0.2dev",
   "description": "React with adaptive style",
   "keywords": [
     "react",
