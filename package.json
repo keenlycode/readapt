@@ -1,0 +1,31 @@
+{
+  "name": "readapt",
+  "version": "0.0.1",
+  "description": "React with adaptive style",
+  "keywords": [
+    "react",
+    "component",
+    "css"
+  ],
+  "author": "Nitipit Nontasuwan",
+  "license": "ISC",
+  "main": "dist/readapt.js",
+  "scripts": {
+    "test": "node esbuild/test.mjs",
+    "dist": "node esbuild/dist.mjs && tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@devcapsule/adapter": "file:../adapter",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "esbuild": "^0.19.11",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ]
+}
