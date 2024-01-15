@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { createRoot } from "react-dom/client";
-import { Readapt, useCSS } from "readapt/src/readapt";
+import { Readapt, useCSS } from "@devcapsule/readapt/src/readapt";
 
 class Style extends Readapt {};
 Style.define('el-style');
