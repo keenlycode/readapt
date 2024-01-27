@@ -12,7 +12,10 @@
   "main": "dist/readapt.js",
   "scripts": {
     "test": "node esbuild/test.mjs",
-    "dist": "node esbuild/dist.mjs && tsc --project tsconfig.json"
+    "dist": "node esbuild/dist.mjs && tsc --project tsconfig.json",
+    "docs-html": "source venv/bin/activate && engrave dev docs-src docs",
+    "docs-esbuild": "node esbuild/docs.mjs",
+    "docs": "concurrently 'npm:docs-html' 'npm:docs-esbuild'"
   },
   "dependencies": {
     "@devcapsule/adapter": "^2.4.10",
@@ -21,7 +24,9 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.47",
+    "concurrently": "^8.2.2",
     "esbuild": "^0.19.11",
+    "glob": "^10.3.10",
     "typescript": "^5.3.3"
   },
   "files": [
