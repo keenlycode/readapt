@@ -18,7 +18,7 @@
     "docs": "concurrently 'npm:docs-html' 'npm:docs-esbuild'"
   },
   "dependencies": {
-    "@devcapsule/adapter": "^2.4.10",
+    "@devcapsule/adapter": "^2.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
