@@ -1,5 +1,5 @@
-import { useRef } from 'react';
-import * as React from 'react';
-import { useCSS } from '@devcapsule/readapt';
+export { useRef, useEffect } from 'react';
+export { createRoot } from 'react-dom/client';
+import React from 'react';
 
-export { useRef, React };
+export { React };

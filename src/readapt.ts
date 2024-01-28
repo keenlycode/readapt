@@ -1,4 +1,5 @@
 import { DependencyList, MutableRefObject, useEffect } from 'react';
+import { Adapter } from '@devcapsule/adapter';
 
 interface useCSSOption {
     onStates?: DependencyList | undefined;
@@ -17,3 +18,5 @@ export function useCSS(
     }
   }, option.onStates);
 }
+
+export { Adapter as Readapt };

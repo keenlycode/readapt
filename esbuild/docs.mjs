@@ -31,7 +31,7 @@ let ctx = await esbuild.context({
   entryNames: '[dir]/[name]',
   outdir: 'docs/',
   outbase: 'docs-src/',
-  bundle: false,
+  bundle: true,
   sourcemap: true,
   target: ["chrome100"],
   format: "esm",

@@ -9,7 +9,8 @@
   ],
   "author": "Nitipit Nontasuwan",
   "license": "ISC",
-  "module": "dist/readapt.js",
+  "type": "module",
+  "main": "dist/readapt.js",
   "types": "dist/readapt.d.ts",
   "scripts": {
     "test": "node esbuild/test.mjs",

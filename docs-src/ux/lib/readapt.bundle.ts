@@ -1,1 +1,1 @@
-export { useCSS } from '@devcapsule/readapt';
+export { useCSS, Readapt } from '@devcapsule/readapt/src/readapt';
