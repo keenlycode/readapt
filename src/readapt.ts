@@ -4,8 +4,6 @@ interface useCSSOption {
     onStates?: DependencyList | undefined;
 }
 
-export { Adapter as Readapt } from '@devcapsule/adapter';
-
 export function useCSS(
     style: MutableRefObject<any>,
     css: string | (() => string),

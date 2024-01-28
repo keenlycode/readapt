@@ -9,7 +9,8 @@
   ],
   "author": "Nitipit Nontasuwan",
   "license": "ISC",
-  "main": "dist/readapt.js",
+  "module": "dist/readapt.js",
+  "types": "dist/readapt.d.ts",
   "scripts": {
     "test": "node esbuild/test.mjs",
     "dist": "node esbuild/dist.mjs && tsc --project tsconfig.json",
@@ -23,11 +24,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@devcapsule/readapt": "file:.",
     "@types/react": "^18.2.47",
     "concurrently": "^8.2.2",
     "esbuild": "^0.19.11",
     "glob": "^10.3.10",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "color": "^4.2.3"
   },
   "files": [
     "dist/**/*",
